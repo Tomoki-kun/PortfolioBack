@@ -33,13 +33,8 @@
 }
 
 /* Boton de Twitter */
-.btn-outline-twitter{
-    border: 1px solid;
-    border-color: black;
-    color: rgb(87, 87, 87);
-}
-.btn-outline-twitter:hover{
-    background: #8bd6ff;
+
+.btn-outline-info:hover{
     position: relative;
     color: white;
 }
