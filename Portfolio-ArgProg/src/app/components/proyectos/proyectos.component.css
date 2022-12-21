@@ -1,0 +1,13 @@
+.contenedor{
+    width: auto;
+}
+
+.descripcion,.imagen{
+    display: inline-block;
+    text-align: justify;
+}
+
+img{
+    
+    box-shadow: 10px 10px 30px red;
+}
