@@ -18,7 +18,6 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
-import { LoginFormComponent } from './components/login-form/login-form.component';
 import { SigninFormComponent } from './components/signin-form/signin-form.component';
 
 @NgModule({
@@ -35,7 +34,6 @@ import { SigninFormComponent } from './components/signin-form/signin-form.compon
     ProyectosComponent,
     FooterComponent,
     HomeComponent,
-    LoginFormComponent,
     SigninFormComponent
   ],
   imports: [

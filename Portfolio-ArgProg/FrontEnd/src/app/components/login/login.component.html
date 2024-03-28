@@ -1,5 +1,30 @@
 <div class="btn-group">
-    <button type="button" class="btn btn-outline-danger" (click)="login()">Log in</button>
+    <button type="button" class="btn btn-outline-danger"  data-bs-toggle="modal" data-bs-target="#ModalForm">Log in</button>
     <button type="button" class="btn btn-outline-success" (click)="signIn()">Sign in</button>
 </div>
 
+<div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-shadow"></div>
+    <div class="modal-content">
+      <div class="modal-body">
+          <button type="button" class="btn-close btn-close-green" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="myform bg-dark">
+              <h1 class="text-center">Iniciar sesión</h1>
+              <form>
+                  <div class="mb-3 mt-4">
+                      <label for="exampleInputEmail1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <button type="submit" class="btn btn-light mt-3">INGRESAR</button>
+                  <p>No tienes una cuenta? <a href="#">Registrate ahora</a></p>
+              </form>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
