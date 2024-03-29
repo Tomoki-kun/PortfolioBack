@@ -4,7 +4,7 @@ import com.portfolio.Tomoki.Entity.Persona;
 import com.portfolio.Tomoki.Interface.IPersonaService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
 public class PersonaController {
     @Autowired IPersonaService iPersonaService;
     
@@ -24,6 +23,7 @@ public class PersonaController {
         return iPersonaService.getPersona();
     }
     
+    @PreAuthorize("hasRole('ROLE_ADMIN')")    
     @PostMapping("/personas/crear")
     public String createPersona(@RequestBody Persona persona)
     {
@@ -31,12 +31,14 @@ public class PersonaController {
         return "La persona fue creada correctamente";
     }
     
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     @DeleteMapping("/personas/borrar/{id}")
     public String deletePersona(@PathVariable Long id){
         iPersonaService.deletePersona(id);
         return "La persona fue borrada correctamente";
     }
     
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     @PutMapping("/personas/editar/{id}")
     public Persona editPersona(@PathVariable Long id,
                                 @RequestParam("nombre") String nuevoNombre,
