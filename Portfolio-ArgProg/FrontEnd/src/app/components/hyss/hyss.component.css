@@ -2,3 +2,7 @@ circle-progress{
     text-shadow: rgb(0, 255, 242) 1px 3px 5px;
     cursor: pointer;
 }
+.row
+{
+    width: 100vw;
+}

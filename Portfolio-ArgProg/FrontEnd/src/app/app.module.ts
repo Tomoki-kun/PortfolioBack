@@ -19,6 +19,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { SigninFormComponent } from './components/signin-form/signin-form.component';
+import { interceptorProvider } from './service/interceptor-service';
+import { LoginFormComponent } from './components/login-form/login-form.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,8 @@ import { SigninFormComponent } from './components/signin-form/signin-form.compon
     ProyectosComponent,
     FooterComponent,
     HomeComponent,
-    SigninFormComponent
+    SigninFormComponent,
+    LoginFormComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +46,9 @@ import { SigninFormComponent } from './components/signin-form/signin-form.compon
     NgCircleProgressModule.forRoot({}),
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    interceptorProvider
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

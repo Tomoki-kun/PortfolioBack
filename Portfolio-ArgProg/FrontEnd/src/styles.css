@@ -2,6 +2,7 @@ body{
     background-color: rgb(26, 25, 25);
     text-shadow: rgb(0, 255, 21) 0px 3px 10px;
     color: aliceblue;
+    width: 100vw;
 }
 
 #titulo{
