@@ -32,8 +32,15 @@
 }
 
 /* Boton de Twitter */
-
-.btn-outline-info:hover{
+.btn-outline-dark
+{
+    border: 1px solid;
+    border-color: #000000;
+    color: #ffffff;
+}
+.btn-outline-dark:hover{
     position: relative;
-    color: white;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
 }
