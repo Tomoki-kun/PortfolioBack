@@ -6,35 +6,35 @@ import javax.validation.constraints.NotBlank;
 
 public class dtoExperiencia {
     @NotBlank
-    private String nombreE;
+    private String nombreExp;
     @NotBlank
-    private String descripcionE;
+    private String descripcionExp;
     
     //Constructor
 
     public dtoExperiencia() {
+    }        
+public dtoExperiencia(String nombreExp, String descripcionExp) {
+        this.nombreExp = nombreExp;
+        this.descripcionExp = descripcionExp;
     }
-
-    public dtoExperiencia(String nombreE, String descripcionE) {
-        this.nombreE = nombreE;
-        this.descripcionE = descripcionE;
-    }
+    
     
     //Getter & Setter
 
-    public String getNombreE() {
-        return nombreE;
+    public String getNombreExp() {
+        return nombreExp;
     }
 
-    public void setNombreE(String nombreE) {
-        this.nombreE = nombreE;
+    public void setNombreExp(String nombreExp) {
+        this.nombreExp = nombreExp;
     }
 
-    public String getDescripcionE() {
-        return descripcionE;
+    public String getDescripcionExp() {
+        return descripcionExp;
     }
 
-    public void setDescripcionE(String descripcionE) {
-        this.descripcionE = descripcionE;
+    public void setDescripcionExp(String descripcionExp) {
+        this.descripcionExp = descripcionExp;
     }
 }

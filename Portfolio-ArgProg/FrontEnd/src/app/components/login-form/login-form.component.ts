@@ -40,14 +40,9 @@ export class LoginFormComponent implements OnInit {
       this.router.navigate(['']);
     }, err => {
       this.isLogged = false;
-      this.isLogginFail = true; 
-      if (err.error && err.error.mensaje) {
-        this.errMsj = err.error.mensaje;
-        console.log(this.errMsj);
-      } else {
-        // Manejar el caso en que err.error no tiene la propiedad 'mensaje'
-        console.error('Error en la respuesta:', err);
-      }
+      this.isLogginFail = true;
+      this.errMsj = err.error.mensaje;
+      console.log(this.errMsj);
 
     });
   }
