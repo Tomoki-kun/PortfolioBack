@@ -1,7 +1,19 @@
 .row{
-    width: 100vw;
+    padding: 20px;
+}
+.table {
+    color: aliceblue;
+    align-content: start;
+}
+#subtitulo,h3{
+    display: inline;
+}
+.descripcion
+{
+    padding-left:50px;
 }
 
-h1,h3{
-    display: inline;
+h1
+{
+    text-align: center;
 }

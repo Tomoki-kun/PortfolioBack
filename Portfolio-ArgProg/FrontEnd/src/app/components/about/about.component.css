@@ -38,8 +38,11 @@
 }
 
 /* Etiqueta Acerca de mi */
-#acercademi{
+#acercademi {
     margin-top: 50px;
-    margin-left: auto;
     padding-right: 30px;
+}
+
+span{
+    margin-top: 50px;
 }

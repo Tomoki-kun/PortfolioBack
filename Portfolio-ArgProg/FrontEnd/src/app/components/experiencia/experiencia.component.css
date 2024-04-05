@@ -9,3 +9,11 @@
     display: inline;
 }
 
+h1
+{
+    text-align: center;
+}
+.descripcion
+{
+    padding-left:50px;
+}
