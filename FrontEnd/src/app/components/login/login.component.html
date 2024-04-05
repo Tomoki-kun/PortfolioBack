@@ -1,0 +1,5 @@
+<div class="btn-group">
+  <button type="button" (click)="login()" *ngIf="!isLogged" class="btn btn-outline-success">Iniciar sesión</button>
+  <button type="button" (click)="onLogOut()" *ngIf="isLogged" class="btn btn-outline-danger">Cerrar sesión</button>
+</div>
+

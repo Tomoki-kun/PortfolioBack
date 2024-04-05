@@ -1,0 +1,46 @@
+.btn-group{
+    margin-right: 5px;
+}
+
+/* Boton de Instagram */
+.btn-outline-instagram{
+    border: 1px solid;
+    border-color: #9b36b7 #d92e7f #f15245;
+    color: #d92e7f;
+}
+.btn-outline-instagram:hover{
+    background: radial-gradient(circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf);
+    position: relative;
+    color: white;
+}
+
+/* Boton de LinkedIn */
+.btn-outline-linkedin{
+    border: 1px solid;
+    border-color: #0077b5;
+    color: #0077b5;
+}
+.btn-outline-linkedin:hover{
+    background: #0077b5;
+    position: relative;
+    color: white;
+}
+
+/* Boton de Twitter */
+.btn-outline-dark
+{
+    border: 1px solid;
+    border-color: #000000;
+    color: #ffffff;
+}
+.btn-outline-dark:hover{
+    position: relative;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+}
