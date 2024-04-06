@@ -1,4 +1,4 @@
-FROM amazoncorretto:11-alpine-jdk                      
+FROM amazoncorretto:22-alpine-jdk                      
 MAINTAINER TOMOKI                                       
 COPY target/Tomoki-0.0.1-SNAPSHOT.jar tomoki-app.jar   
 EXPOSE 8080
