@@ -5,6 +5,7 @@ D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Entity\Rol.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Repository\IPersonaRepository.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\TomokiApplication.java
+D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Controller\CHys.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Entity\Usuario.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Service\RolService.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Dto\dtoEducacion.java
@@ -15,9 +16,11 @@ D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Dto\LoginUsuario.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\jwt\JwtEntryPoint.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Service\ImpPersonaService.java
+D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Service\Shys.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Service\UserDetailsServiceImpl.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Dto\JwtDTO.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Repository\IRolRepository.java
+D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Dto\dtoHys.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Entity\Persona.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\jwt\JwtProvider.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Repository\IusuarioRepository.java
@@ -26,9 +29,11 @@ D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Controller\Mensaje.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\MainSecurity.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Entity\UsuarioPrincipal.java
+D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Repository\Rhys.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\jwt\JwtTokenFilter.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Repository\REducacion.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Interface\IPersonaService.java
+D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Entity\Hys.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Dto\NuevoUsuario.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Entity\Educacion.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Enums\RolNombre.java
