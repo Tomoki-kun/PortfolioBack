@@ -32,7 +32,7 @@ D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Repository\Rhys.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\jwt\JwtTokenFilter.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Repository\REducacion.java
-D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Interface\IPersonaService.java
+D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Dto\dtoPersona.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Entity\Hys.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Dto\NuevoUsuario.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Entity\Educacion.java

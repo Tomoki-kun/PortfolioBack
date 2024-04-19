@@ -2,6 +2,7 @@ com\portfolio\Tomoki\Security\Controller\AuthController.class
 com\portfolio\Tomoki\Repository\REducacion.class
 com\portfolio\Tomoki\Security\Repository\IRolRepository.class
 com\portfolio\Tomoki\Entity\Experiencia.class
+com\portfolio\Tomoki\Dto\dtoPersona.class
 com\portfolio\Tomoki\Repository\RExperiencia.class
 com\portfolio\Tomoki\Security\Dto\LoginUsuario.class
 com\portfolio\Tomoki\Security\Entity\Rol.class
@@ -15,7 +16,6 @@ com\portfolio\Tomoki\Security\Service\UsuarioService.class
 com\portfolio\Tomoki\Security\jwt\JwtEntryPoint.class
 com\portfolio\Tomoki\Security\Repository\IusuarioRepository.class
 com\portfolio\Tomoki\Security\jwt\JwtProvider.class
-com\portfolio\Tomoki\Interface\IPersonaService.class
 com\portfolio\Tomoki\Security\Dto\NuevoUsuario.class
 com\portfolio\Tomoki\Service\SEducacion.class
 com\portfolio\Tomoki\Controller\CHys.class
