@@ -60,7 +60,9 @@ public class PersonaController {
         
         Persona persona = personaService.getOne(id).get();
         persona.setNombre(dtopers.getNombre());
+        persona.setApellido(dtopers.getApellido());
         persona.setDescripcion(dtopers.getDescripcion());
+        persona.setImg(dtopers.getImg());
         
         personaService.save(persona);
         return new ResponseEntity(new Mensaje("Persona actualizada"), HttpStatus.OK);
@@ -77,9 +79,12 @@ public class PersonaController {
     
     @GetMapping("/detail/{id}")
     public ResponseEntity<Persona> getById(@PathVariable("id") int id){
+        Persona persona;
         if(!personaService.existsById(id))
-            return new ResponseEntity(new Mensaje("no existe"), HttpStatus.NOT_FOUND);
-        Persona Persona = personaService.getOne(id).get();
-        return new ResponseEntity(Persona, HttpStatus.OK);
+            persona = new Persona();
+//            return new ResponseEntity(new Mensaje("no existe"), HttpStatus.NOT_FOUND);
+        else
+            persona = personaService.getOne(id).get();
+        return new ResponseEntity(persona, HttpStatus.OK);
     }
 }

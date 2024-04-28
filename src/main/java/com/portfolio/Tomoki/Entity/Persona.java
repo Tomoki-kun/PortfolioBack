@@ -1,7 +1,5 @@
 package com.portfolio.Tomoki.Entity;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import javax.persistence.Entity;
@@ -10,15 +8,14 @@ import javax.persistence.Id;
 @Entity
 public class Persona {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     
-    @NotNull
-    @Size(min = 1, max = 50, message = "no cumple con la longitud")
+    
+    @Size(min = 0, max = 100, message = "no cumple con la longitud")
     private String nombre;
     
-    @NotNull
-    @Size(min = 1, max = 50, message = "no cumple con la longitud")
+    
+    @Size(min = 0, max = 100, message = "no cumple con la longitud")
     private String apellido;
     
     @NotNull
@@ -28,12 +25,18 @@ public class Persona {
 
     
     public Persona() {
+        this.nombre = "";
+        this.apellido = "";
+        this.descripcion = "";
+        this.img = "";
+        this.id = 1;
     }
     public Persona(String nombre, String apellido, String descripcion, String img) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.descripcion = descripcion;
         this.img = img;
+        this.id = 1;
     }
 
     public int getId() {
