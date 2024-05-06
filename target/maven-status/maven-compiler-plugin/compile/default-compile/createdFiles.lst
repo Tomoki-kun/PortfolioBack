@@ -1,3 +1,4 @@
+com\portfolio\Tomoki\config\CorsConfig.class
 com\portfolio\Tomoki\Security\Controller\AuthController.class
 com\portfolio\Tomoki\Repository\REducacion.class
 com\portfolio\Tomoki\Security\Repository\IRolRepository.class
