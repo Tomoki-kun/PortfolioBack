@@ -1,8 +1,8 @@
-FROM maven:3.8.5-openjdk-17 AS build
+FROM openjdk:22-slim AS builder
 COPY . .
 RUN mvn clean package -DskipTests
 
-FROM openjdk:17.0.1-jdk-slim
+FROM openjdk:22-slim
 COPY --from=build /target/Tomoki-0.0.1-SNAPSHOT.jar Tomoki.jar
 EXPOSE 8080 
 ENTRYPOINT ["java","-jar","/Tomoki.jar"]
