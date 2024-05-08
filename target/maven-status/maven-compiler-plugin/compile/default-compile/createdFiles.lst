@@ -31,6 +31,7 @@ com\portfolio\Tomoki\Controller\CExperiencia.class
 com\portfolio\Tomoki\Repository\IPersonaRepository.class
 com\portfolio\Tomoki\Controller\PersonaController.class
 com\portfolio\Tomoki\Entity\Persona.class
+NewClass.class
 com\portfolio\Tomoki\Security\Controller\Mensaje.class
 com\portfolio\Tomoki\Service\SExperiencia.class
 com\portfolio\Tomoki\Entity\Hys.class
