@@ -1,9 +1,9 @@
 FROM openjdk:22-slim AS builder
 # Establecer un directorio de trabajo
-WORKDIR ..
+WORKDIR . .
 
 # Copiar archivos de tu proyecto al directorio de trabajo
-COPY ..
+COPY . .
 
 RUN mvn clean package -DskipTests
 
