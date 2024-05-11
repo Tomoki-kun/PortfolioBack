@@ -12,7 +12,6 @@ D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Entity\Experiencia.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Dto\dtoExperiencia.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Controller\PersonaController.java
-D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\config\CorsConfig.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Service\SExperiencia.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Dto\LoginUsuario.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\jwt\JwtEntryPoint.java
@@ -23,6 +22,7 @@ D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Repository\IRolRepository.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Dto\dtoHys.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Entity\Persona.java
+D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Config\DataInitializer.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\jwt\JwtProvider.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Security\Repository\IusuarioRepository.java
 D:\Proyecto-Integrador-AcostaJonathan\PortfolioBack\src\main\java\com\portfolio\Tomoki\Service\SEducacion.java
