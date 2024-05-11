@@ -1,9 +1,7 @@
 
 package com.portfolio.Tomoki.Controller;
 
-import com.portfolio.Tomoki.Dto.dtoExperiencia;
 import com.portfolio.Tomoki.Dto.dtoHys;
-import com.portfolio.Tomoki.Entity.Experiencia;
 import com.portfolio.Tomoki.Entity.Hys;
 import com.portfolio.Tomoki.Security.Controller.Mensaje;
 import com.portfolio.Tomoki.Service.Shys;
