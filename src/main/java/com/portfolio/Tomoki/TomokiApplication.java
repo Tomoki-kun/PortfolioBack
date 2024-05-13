@@ -10,12 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class TomokiApplication {
 
     @GetMapping("/mensaje")
-    
-    public String mensaje(){
+
+    public String mensaje() {
         return "Welcome from Java to Azure";
     }
-	public static void main(String[] args) {
-		SpringApplication.run(TomokiApplication.class, args);
-	}
+
+    public static void main(String[] args) {
+        SpringApplication.run(TomokiApplication.class, args);
+    }
 
 }
