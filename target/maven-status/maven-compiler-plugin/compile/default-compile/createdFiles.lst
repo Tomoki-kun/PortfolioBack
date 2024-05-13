@@ -8,7 +8,6 @@ com\portfolio\Tomoki\Security\Dto\LoginUsuario.class
 com\portfolio\Tomoki\Security\Entity\Rol.class
 com\portfolio\Tomoki\Security\MainSecurity.class
 com\portfolio\Tomoki\Service\ImpPersonaService.class
-com\portfolio\Tomoki\Config\DataInitializer.class
 com\portfolio\Tomoki\Security\Entity\UsuarioPrincipal.class
 com\portfolio\Tomoki\TomokiApplication.class
 com\portfolio\Tomoki\Dto\dtoExperiencia.class
